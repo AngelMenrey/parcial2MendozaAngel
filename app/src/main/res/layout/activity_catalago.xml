@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORMULARIO"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/codigoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código de la bicicleta" />
+
+    <EditText
+        android:id="@+id/marcaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca de la bicicleta" />
+
+    <EditText
+        android:id="@+id/modeloInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo de la bicicleta" />
+
+    <EditText
+        android:id="@+id/anhoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año de la bicicleta"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/fotoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Foto de la bicicleta"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/capturarFotoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capturar Foto" />
+
+    <Button
+        android:id="@+id/guardarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/buscarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/limpiarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar" />
+</LinearLayout>
